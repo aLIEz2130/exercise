@@ -10,7 +10,7 @@ int main()
 		printf("please input:", psw);
 		scanf("%s", psw);
 		if (strcmp("RBQ321", psw)==0){
-			printf("登陆成功!\n");
+			printf("登陆成功!!!\n");
 				break;
 		}
 		else {
@@ -18,7 +18,7 @@ int main()
 		}
 	}
 	if (i == 3){
-		printf("三次密码输入错误，退出系统!\n");
+		printf("三次密码输入错误，退出系统!!!\n");
 	}
 	system("pause");
 	return 0;
